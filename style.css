@@ -1,0 +1,228 @@
+/* CSS reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Utility */
+
+h1 {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: aliceblue;
+    word-spacing: 0.7rem;
+    margin-bottom: 30px;
+}
+
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Navbar */
+
+#navbar {
+    font-size: 1.2rem;
+    display: flex;
+    font-family: 'Playpen Sans', cursive;
+    color: aliceblue;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 75px;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 5px 0px;
+}
+
+nav ul li a {
+    padding: 0px 18px;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 5px 6px;
+    padding-right: 80px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    padding: 0px 8px;
+
+}
+
+/* Home */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 100px;
+    height: 658px;
+
+}
+
+#home::before {
+    content: "";
+    background-image: url("Home.bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 115px;
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 20px 15px 15px rgb(11, 21, 215);
+    height: 80%;
+    width: 85%;
+    z-index: -1;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 2.5rem;
+    padding: 30px 15px;
+
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+/* Container */
+
+.container {
+    height: 75vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url("Play.bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+    width: 80vw;
+    border-radius: 20px;
+    padding: 34px;
+    box-shadow: 20px 15px 15px rgb(215, 11, 11);
+}
+
+.songlist {
+    margin-right: 200px;
+}
+
+
+.songItem {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+
+.songItem img {
+    height: 45px;
+    margin: 0px 23px;
+}
+
+.time {
+    margin: 0px 10px;
+}
+
+.songlistplay i {
+    cursor: pointer;
+}
+
+.songlistplay {
+    margin: 0 20px;
+}
+
+.songlistitem-container {
+    margin: 20px 0px;
+    width: 40vw;
+}
+
+#banner {
+    height: 300px;
+    width: 300px;
+}
+
+/* Bottom */
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    border: 6px solid grey;
+    border-radius: 25px;
+    color: aliceblue;
+    flex-direction: column;
+}
+
+.icons {
+    margin: 15px 5px;
+}
+
+.icons i {
+    cursor: pointer;
+    margin: 3px 15px;
+}
+
+#myprogressbar {
+    width: 95vw;
+    cursor: pointer;
+}
+
+.songinfo {
+    position: absolute;
+    left: 10vw;
+    bottom: 2vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-size: 1.2rem;
+
+}
+
+.songinfo img {
+    margin: 10px 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}

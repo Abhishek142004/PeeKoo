@@ -23,7 +23,7 @@ This project is a simple music player webpage built using pure HTML, CSS, and Ja
 
 1. Clone the repository:
    ```bash
-   https://github.com/Abhishek142004/Canary.git
+   https://github.com/Abhishek142004/PeeKoo.git
 
 <h1>Screenshot</h1>
 

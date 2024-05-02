@@ -1,4 +1,4 @@
-# Canary
+# PeeKoo
 # Music Player Webpage
 
 Welcome to the Music Player Webpage project! 🎵
@@ -32,7 +32,7 @@ This project is a simple music player webpage built using pure HTML, CSS, and Ja
 ![image](https://github.com/Abhishek142004/Canary/assets/156573359/db306ea9-a9ab-426e-b03b-3db62e2090d4)
 
 <h1>Demo</h1>
-<a href="https://canary142004.000webhostapp.com/">Live Demo</a>
+<a href="https://peekoo.000webhostapp.com/">Live Demo</a>
 
 <h1></h1>
 Feel free to contribute to the project by opening issues or submitting pull requests. Your feedback and ideas are highly appreciated!
